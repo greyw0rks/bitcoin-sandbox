@@ -34,8 +34,8 @@
       "url": "https://github.com/greyw0rks/bitcoin-sandbox"
     },
     {
-      "label": "First published implementation",
-      "url": "https://github.com/greyw0rks/bitcoin-sandbox/commit/0e2a6fb337598da3e44fc5fcb05965737397a003"
+      "label": "Historical first implementation",
+      "url": "https://github.com/greyw0rks/grey-payroll/commit/0e2a6fb337598da3e44fc5fcb05965737397a003"
     }
   ],
   "thumbnail": "docs/sandbox/submission/media/00-thumbnail.png",
@@ -49,7 +49,7 @@
   ],
   "videoUrl": null,
   "additionalInfo": "Wallet implementation: Bitcoin Core regtest, including actual wallet creation/funding, PSBT construction, signing, broadcast, UTXO inspection, and block confirmations. Regtest coins have no monetary value. The runner controls the educational keys; per-account wallets share its chain.\n\nFirst published implementation: 0e2a6fb337598da3e44fc5fcb05965737397a003, in greyw0rks/grey-payroll. Accepted runtime source base: 92b56752848fa4206a348611cc6ec05abd01c37a; the final kit's SHA-256 manifest identifies its actual source and documentation. The public Core and Convex flow passed 36 checks; the current fresh setup passed 32 Core checks and verified cleanup. The local Core report is that same fresh-setup protocol run. The shared repository passed 445 tests, including 56 Sandbox regressions. Hosted browser acceptance passed 63 checks with 21 captures across phone, tablet, and desktop; local UI acceptance separately passed 58 checks. Expired-tunnel and stopped-runner recovery preserved the original verified transaction and Core data. See RELEASE.md for exact timestamps and source hashes.\n\nThe free demo requires the builder's computer and private Core runner to stay online. It is not an always-on service. Account deletion and automatic cleanup are further work. No independent learner adoption or mainnet settlement is claimed.\n\nThe user will render/export the demo, upload it to YouTube or Vimeo, and enter the final URL at submission. This kit is prepared material, not a confirmed Devpost entry.",
-  "uploadFile": "docs/sandbox/submission/bitcoin-sandbox-devpost.zip",
+  "uploadFile": "bitcoin-sandbox-devpost.zip",
   "submissionConfirmed": false,
   "projectUrl": null,
   "releaseState": "engineering-acceptance-complete-kit-prepared",
@@ -71,5 +71,6 @@
     "firstPublishedImplementation": "0e2a6fb337598da3e44fc5fcb05965737397a003",
     "walletSetup": "docs/evidence/sandbox-wallet-setup.json"
   },
-  "pendingTags": []
+  "pendingTags": [],
+  "additionalInformation": "Wallet implementation: Bitcoin Core regtest, including actual wallet creation/funding, PSBT construction, signing, broadcast, UTXO inspection, and block confirmations. Regtest coins have no monetary value. The runner controls the educational keys; per-account wallets share its chain.\n\nFirst published implementation: 0e2a6fb337598da3e44fc5fcb05965737397a003, in greyw0rks/grey-payroll. Accepted runtime source base: 92b56752848fa4206a348611cc6ec05abd01c37a; the final kit's SHA-256 manifest identifies its actual source and documentation. The public Core and Convex flow passed 36 checks; the current fresh setup passed 32 Core checks and verified cleanup. The local Core report is that same fresh-setup protocol run. The shared repository passed 445 tests, including 56 Sandbox regressions. Hosted browser acceptance passed 63 checks with 21 captures across phone, tablet, and desktop; local UI acceptance separately passed 58 checks. Expired-tunnel and stopped-runner recovery preserved the original verified transaction and Core data. See RELEASE.md for exact timestamps and source hashes.\n\nThe free demo requires the builder's computer and private Core runner to stay online. It is not an always-on service. Account deletion and automatic cleanup are further work. No independent learner adoption or mainnet settlement is claimed.\n\nThe user will render/export the demo, upload it to YouTube or Vimeo, and enter the final URL at submission. This kit is prepared material, not a confirmed Devpost entry."
 }

@@ -1,7 +1,5 @@
 # Bitcoin Sandbox · Devpost fields
 
-Prepared submission material. The user supplies the final rendered video URL; submission confirmation is recorded separately.
-
 ## Project name
 
 Bitcoin Sandbox
@@ -66,28 +64,15 @@ TypeScript, React, Vite, Node.js, Express.js, SQLite, Convex, Bitcoin Core, Bitc
 
 ## Try it out
 
-- [Try Bitcoin Sandbox](https://bitcoin-sandbox.vercel.app/)
-- [GitHub source](https://github.com/greyw0rks/bitcoin-sandbox)
-- [First published implementation](https://github.com/greyw0rks/bitcoin-sandbox/commit/0e2a6fb337598da3e44fc5fcb05965737397a003)
-
-## Thumbnail
-
-docs/sandbox/submission/media/00-thumbnail.png
-
-## Image gallery
-
-- docs/sandbox/submission/media/01-landing.png
-- docs/sandbox/submission/media/02-wallets-and-utxo.png
-- docs/sandbox/submission/media/03-transaction-anatomy.png
-- docs/sandbox/submission/media/04-explicit-review.png
-- docs/sandbox/submission/media/05-core-confirmation-proof.png
-- docs/sandbox/submission/media/06-recovery-and-mobile.png
+[Try Bitcoin Sandbox](https://bitcoin-sandbox.vercel.app/)
+[GitHub source](https://github.com/greyw0rks/bitcoin-sandbox)
+[Historical first implementation](https://github.com/greyw0rks/grey-payroll/commit/0e2a6fb337598da3e44fc5fcb05965737397a003)
 
 ## Video demo URL
 
-User will render/export, upload to YouTube or Vimeo, and enter the URL at submission.
+Render/export, upload to YouTube or Vimeo, and enter the actual URL.
 
-## Additional information for judges
+## Additional information
 
 Wallet implementation: Bitcoin Core regtest, including actual wallet creation/funding, PSBT construction, signing, broadcast, UTXO inspection, and block confirmations. Regtest coins have no monetary value. The runner controls the educational keys; per-account wallets share its chain.
 
@@ -97,10 +82,7 @@ The free demo requires the builder's computer and private Core runner to stay on
 
 The user will render/export the demo, upload it to YouTube or Vimeo, and enter the final URL at submission. This kit is prepared material, not a confirmed Devpost entry.
 
-## Required upload
+## Upload a file
 
-docs/sandbox/submission/bitcoin-sandbox-devpost.zip
+bitcoin-sandbox-devpost.zip
 
-## Submission status
-
-Prepared material; no Devpost submission confirmation is recorded.
