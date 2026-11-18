@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-18T20:26:53.767Z",
+  "product": "bitcoin-sandbox",
+  "origin": "https://bitcoin-sandbox.vercel.app",
+  "assets": [
+    {
+      "path": "/assets/index-JDHCM3yc.js",
+      "bytes": 364836,
+      "sha256": "c2f439efe4d46c2fc60cec1a37b034686cf0d5ff9ef388becb5649e08f32b1c1"
+    },
+    {
+      "path": "/assets/index-CzCZNVnT.css",
+      "bytes": 85616,
+      "sha256": "2ce8b433259dc88201c3e91cc4e95e6dce7cbe277aa101627b211e3ceac22a1a"
+    }
+  ],
+  "routes": [
+    "/app"
+  ],
+  "sessionChecks": [
+    "Fresh generated builder Nostr identity signs into this independent origin",
+    "Replay rejected",
+    "Owner product endpoints use Convex",
+    "Hosted Core runner is available; no lab created",
+    "Logout invalidates the session"
+  ],
+  "viewports": [
+    1440,
+    1024,
+    390,
+    360
+  ],
+  "screenshots": [
+    "1440-landing.png",
+    "1024-landing.png",
+    "390-landing.png",
+    "360-landing.png"
+  ],
+  "pageErrors": [],
+  "classification": "Standalone hosting and generated builder identity verification. No wallet connection, payment, public messages or independent adoption."
+}

@@ -1,4 +1,8 @@
 node_modules
+demo
+submission
+docs/sandbox/submission/*.zip
+docs/sandbox/submission/*.sha256
 .data/
 .env
 .env.*

@@ -19,3 +19,5 @@ Open http://127.0.0.1:4404.
 Bitcoin Sandbox has its own repository, public site and submission. The release builds only its interface. Retained evidence records builder-controlled protocol tests; independent learner outcomes are unmeasured.
 
 Read the [product guide](docs/sandbox/README.md), [setup](docs/sandbox/SETUP.md), [security notes](docs/sandbox/SECURITY.md) and [demo outline](docs/sandbox/DEMO.md).
+
+Submission copy is in [DEVPOST.md](docs/sandbox/DEVPOST.md). The local `submission` and `demo` shortcuts open the upload kit and editable film.
