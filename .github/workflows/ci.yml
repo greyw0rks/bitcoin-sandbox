@@ -22,5 +22,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
       - run: pnpm typecheck
+      - run: pnpm typecheck:all
       - run: pnpm typecheck:convex
       - run: pnpm build:release

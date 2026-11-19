@@ -5,7 +5,7 @@ import { createHash, randomUUID } from 'node:crypto';
 import { z } from 'zod';
 import type { AppContext, WalletInvoice } from './context.ts';
 import { GateError } from '../packages/nwc-gate/src/types.ts';
-import { lessons, getLesson, type Language } from '../apps/satsacademy/src/content.ts';
+import { lessons, getLesson, type Language } from '../packages/academy/src/content.ts';
 
 type Exercise = {
   id: string; user_id: string; scope: 'user' | 'training'; payment_hash: string; bolt11: string;
